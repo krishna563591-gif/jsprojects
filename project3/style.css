@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 50%;
+    height: 30%;
+    background-color:#1bc545;
+    border-radius: 10px;
+    color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    margin-top: 20px;
+    color: white;
+    height: 40px;
+    width: 10%;
+    background-color: aqua;
+    border-radius: 5px;
+    border: none;
+}
